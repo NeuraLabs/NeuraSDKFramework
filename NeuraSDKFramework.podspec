@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'NeuraSDK.framework'
 
-  s.license      = { :type => "MIT", :file => "mit_licenece.txt" }
+  s.license      = { :type => "MIT", :file => "license.txt" }
 end  
