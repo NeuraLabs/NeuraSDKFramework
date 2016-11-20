@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.source       = { :git => "http://github.com/NeuraLabs/NeuraSDKFramework/releases/download/2.3.2/NeuraSDK.framework.zip" }
+  s.source       = { :http => "http://github.com/NeuraLabs/NeuraSDKFramework/releases/download/2.3.2/NeuraSDK.framework.zip" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -55,10 +55,10 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-#  s.ios.preserve_paths = 'NeuraSDK.framework'
-#  s.source_files  = "NeuraSDK.framework/Headers/**/*.h"
-#  s.public_header_files = 'NeuraSDK.framework/Headers/**/*.h'
-#  s.vendored_frameworks = 'NeuraSDK.framework'
+  s.ios.preserve_paths = 'NeuraSDK.framework'
+  s.source_files  = "NeuraSDK.framework/Headers/**/*.h"
+  s.public_header_files = 'NeuraSDK.framework/Headers/**/*.h'
+  s.vendored_frameworks = 'NeuraSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
