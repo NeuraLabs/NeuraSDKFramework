@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.source       = { :http => "https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/2.3.2/NeuraSDK.framework.zip" }
+  s.source       = { :http => "http://github.com/NeuraLabs/NeuraSDKFramework/releases/download/2.3.2/NeuraSDK.framework.zip" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
