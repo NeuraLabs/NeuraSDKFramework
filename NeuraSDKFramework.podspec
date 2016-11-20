@@ -55,10 +55,10 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.ios.preserve_paths = 'NeuraSDK.framework'
-  s.source_files  = "NeuraSDK.framework/Headers/**/*.h"
-  s.public_header_files = 'NeuraSDK.framework/Headers/**/*.h'
-  s.vendored_frameworks = 'NeuraSDK.framework'
+#  s.ios.preserve_paths = 'NeuraSDK.framework'
+#  s.source_files  = "NeuraSDK.framework/Headers/**/*.h"
+#  s.public_header_files = 'NeuraSDK.framework/Headers/**/*.h'
+#  s.vendored_frameworks = 'NeuraSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
