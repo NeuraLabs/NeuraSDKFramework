@@ -18,12 +18,7 @@
     - Add the following line to your Podfile:
     
       ```ruby
-      pod 'NeuraSDKFramework'
-      ```
-
-    - If you want the univeral development version of the SDK, so you will be able to run on a simulator during development, add this line instead:
-      ```ruby
-      pod 'NeuraSDKFramework', :git => 'https://github.com/NeuraLabs/NeuraSDKFramework.git', :branch => 'dev'
+      pod 'NeuraSDKFramework', '~> 2.0'
       ```
 
     - Run `pod install`
