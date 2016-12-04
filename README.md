@@ -26,7 +26,7 @@
 
 ### Neura SDK on iOS documentation
 
-See the [`Neura SDK iOS documentation`](https://dev.theneura.com/docs/guide/ios/setup) for full info about integrating and using the SDK.
+See the [`Neura SDK iOS documentation`](https://dev.theneura.com/docs/guide/ios/setup) for the full info about integrating and using the SDK.
 
 ## LICENSE
 
