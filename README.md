@@ -18,7 +18,7 @@
     - Add the following line to your Podfile:
     
       ```ruby
-      pod 'NeuraSDKFramework', '~> 2.0'
+      pod 'NeuraSDKFramework'
       ```
 
     - Run `pod install`
