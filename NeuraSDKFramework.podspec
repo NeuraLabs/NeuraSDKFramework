@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|  
 
 # ---------------------------------------------------------------------  
-  s.version           = '2.4.1'
-  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/2.4.1/NeuraSDK.framework.zip' }
+  s.version           = '3.0.0'
+  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/3.0.0/NeuraSDK.framework.zip' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
@@ -31,4 +31,4 @@ For the full iOS SDK documentation, see: https://dev.theneura.com/docs/guide/ios
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'NeuraSDK.framework'
 
-end  
+end
