@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
 
 
 # ---------------------------------------------------------------------
-  s.name              = 'NeuraSDKFramework'
-  s.summary           = 'Neura SDK'
-  s.homepage          = 'https://www.theneura.com/'
-  s.documentation_url = 'https://dev.theneura.com/docs/guide/ios/setup'
-  s.authors           = { 'Neura Inc.' => 'support@theneura.com' }
-  s.license           = { :type => 'proprietary', :text => <<-LICENSE
+  s.name               = 'NeuraSDKFramework'
+  s.summary            = 'Neura SDK'
+  s.homepage           = 'https://www.theneura.com/'
+  s.documentation_url  = 'https://dev.theneura.com/docs/guide/ios/setup'
+  s.authors            = { 'Neura Inc.' => 'support@theneura.com' }
+  s.license            = { :type => 'proprietary', :text => <<-LICENSE
 
     Copyright (C) Neura Inc. See http://www.theneura.com/terms.html
 
