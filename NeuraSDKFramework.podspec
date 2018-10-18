@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
 # ---------------------------------------------------------------------
-  s.version           = '4.11.0'
-  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/4.11.0/NeuraSDK.framework.zip' }
+  s.version           = '4.11.1'
+  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/4.11.1/NeuraSDK.framework.zip' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
   s.name               = 'NeuraSDKFramework'
   s.summary            = 'Neura SDK'
   s.homepage           = 'https://www.theneura.com/'
-  s.documentation_url  = 'https://dev.theneura.com/docs/guide/ios/setup'
-  s.authors            = { 'Neura Inc.' => 'support@theneura.com' }
+  s.documentation_url  = 'https://dev.theneura.com/tutorials/ios'
+  s.authors            = { 'Neura Inc.' => 'https://support.theneura.com' }
   s.license            = { :type => 'proprietary', :text => <<-LICENSE
 
-    Copyright (C) Neura Inc. See http://www.theneura.com/terms.html
+    Copyright (C) Neura Inc. See https://www.theneura.com/terms/\
 
 LICENSE
 }
@@ -22,9 +22,7 @@ LICENSE
 
 
   s.description      = <<-DESC
-Thank you for choosing Neura. Our main goal is to maximize the performance of your product by making it more aware of its users, while respecting privacy through user control over data. We are excited to see what you will accomplish with our SDK!
-
-For the full iOS SDK documentation, see: https://dev.theneura.com/docs/guide/ios/setup
+Thank you for choosing Neura. Neura intelligently transforms customer engagement by delivering live, actionable insights based on each user’s real-world behavior. Brands that utilize Neura’s groundbreaking technology adapt to each user’s unique needs, delivering contextually relevant, real-time interactions and personalized customer experiences—driving engagement, retention, and monetization. We are excited to see what you will accomplish with our SDK!  
                        DESC
 
   s.platform          = :ios
