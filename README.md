@@ -30,4 +30,4 @@ See the [`Neura SDK iOS guide`](https://dev.theneura.com/tutorial/ios) for the f
 
 ## LICENSE
 
-See the [`Terms of use`](https://www.theneura.com/terms-of-use/) on Neura's dev site.
+See the [`Terms of use`](https://www.theneura.com/terms/) on Neura's dev site.
