@@ -11,7 +11,7 @@
       ```
     - Update your local specs repo by running:
       ```bash
-      pod repo update
+      pod update
       ```
       _This step is optional, if you updated the specs repo recently._
 
@@ -26,8 +26,8 @@
 
 ### Neura SDK on iOS documentation
 
-See the [`Neura SDK iOS documentation`](https://dev.theneura.com/docs/guide/ios/setup) for the full info about integrating and using the SDK.
+See the [`Neura SDK iOS guide`](https://dev.theneura.com/tutorial/ios) for the full info about integrating and using the SDK.
 
 ## LICENSE
 
-See the [`Terms of use`](https://www.theneura.com/terms-of-use/) on Neura's dev site.
+See the [`Terms of use`](https://www.theneura.com/terms/) on Neura's dev site.
