@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
 # ---------------------------------------------------------------------
-  s.version           = '4.15.5'
-  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/4.15.5/NeuraSDK.framework.zip' }
+  s.version           = '4.15.6'
+  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSDKFramework/releases/download/4.15.6/NeuraSDK.framework.zip' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
@@ -13,12 +13,20 @@ Pod::Spec.new do |s|
   s.documentation_url  = 'https://dev.theneura.com/tutorials/ios'
   s.authors            = { 'Neura Inc.' => 'https://support.theneura.com' }
   s.license            = { :type => 'proprietary', :text => <<-LICENSE
-  spec.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }  
+  
+  
 
     Copyright (C) Neura Inc. See https://www.theneura.com/terms/\
 
 LICENSE
 }
+
+s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
+s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' } 
+  # spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
@@ -27,7 +35,7 @@ Thank you for choosing Neura. Neura intelligently transforms customer engagement
                        DESC
 
   s.platform          = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'NeuraSDK.framework'
 
 end
