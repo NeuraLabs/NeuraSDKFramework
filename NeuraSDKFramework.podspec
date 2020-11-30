@@ -24,10 +24,7 @@ LICENSE
 s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # spec.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' } 
-  # spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+ 
 
 
   s.description      = <<-DESC
@@ -35,7 +32,7 @@ Thank you for choosing Neura. Neura intelligently transforms customer engagement
                        DESC
 
   s.platform          = :ios
-  s.ios.deployment_target = '9.0'
+  #s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'NeuraSDK.framework'
 
 end
