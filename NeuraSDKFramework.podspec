@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.documentation_url  = 'https://dev.theneura.com/tutorials/ios'
   s.authors            = { 'Neura Inc.' => 'https://support.theneura.com' }
   s.license            = { :type => 'proprietary', :text => <<-LICENSE
+  spec.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }  
 
     Copyright (C) Neura Inc. See https://www.theneura.com/terms/\
 
