@@ -35,7 +35,7 @@ Thank you for choosing Neura. Neura intelligently transforms customer engagement
                        DESC
 
   s.platform          = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'NeuraSDK.framework'
 
 end
